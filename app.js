@@ -14,10 +14,7 @@ var logRouter = require('./routes/logs')
 
 var app = express();
 
-app.use(cors({
-    credentials:true,
-    origin:'http://localhost:3000'
-}));
+app.use(cors())
 app.use(logger('common'))
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
