@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "",
-    "database": "inventory-management",
-    "host": "127.0.0.1",
+    "username": "freedb_warden",
+    "password": "rd4Ce%uC8sJ42Gs",
+    "database": "freedb_inventory-management",
+    "host": "sql.freedb.tech",
     "dialect": "mysql"
   },
   "test": {
