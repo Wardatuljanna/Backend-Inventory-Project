@@ -14,11 +14,7 @@ var logRouter = require('./routes/logs')
 
 var app = express();
 
-app.use(cors({
-  origin: 'https://frontend-weld-one-63.vercel.app',
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true,
-}));
+app.use(cors());
 
 app.use(logger('common'))
 app.use(express.json());
